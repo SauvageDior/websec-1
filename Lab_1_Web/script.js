@@ -13,8 +13,8 @@ function buttonClickHandler() {
     let x;
 
     if ((isNaN(value1))||(isNaN(value2))||(!value1)||(!value2)) {
-        alert('число нада(((((');
-        document.getElementById("result").innerText = "не числа(";
+        //alert('число нада(((((');
+        document.getElementById("result").value = "не числа(" + '\n';
     }
     else {
 
